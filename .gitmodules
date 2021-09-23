@@ -13,3 +13,6 @@
 [submodule "protected/modules/stepstone_videos"]
 	path = protected/modules/stepstone_videos
 	url = https://github.com/StruxureIO/stepstone_videos.git
+[submodule "protected/modules/stepstone_sync"]
+	path = protected/modules/stepstone_sync
+	url = https://github.com/StruxureIO/stepstone_sync.git
