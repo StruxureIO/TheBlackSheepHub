@@ -42,8 +42,8 @@ class RadioFilterInput extends CheckboxFilterInput
         }
 
         if($this->style === static::STYLE_RADIO) {
-            $this->iconActive = 'fa-dot-circle-o';
-            $this->iconInActive = 'fa-circle-o';
+            $this->iconActive = 'fa-dot-circle';
+            $this->iconInActive = 'fa-circle';
         }
     }
 

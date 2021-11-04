@@ -117,7 +117,7 @@ class Events extends BaseObject
 
         $event->sender->addEntry(new MenuLink([
             'id' => 'spaces',
-            'icon' => 'dot-circle-o',
+            'icon' => 'dot-circle',
             'label' => Yii::t('SpaceModule.base', 'Spaces'),
             'url' => ['/space/spaces'],
             'sortOrder' => 250,

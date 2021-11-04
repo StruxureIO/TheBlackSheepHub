@@ -53,7 +53,7 @@ class Menu extends LeftNavigation
 
         $this->addEntry(new MenuLink([
             'id' => 'directory-spaces',
-            'icon' => 'dot-circle-o',
+            'icon' => 'dot-circle',
             'label' => Yii::t('DirectoryModule.base', 'Spaces'),
             'url' => ['/directory/directory/spaces'],
             'sortOrder' => 300,

@@ -33,23 +33,23 @@ use yii\helpers\Url;
         <ul class="tour-list">
             <li id="interface_entry" class="<?php if ($interface == 1) : ?>completed<?php endif; ?>">
                 <a href="<?php echo Url::to(['/dashboard/dashboard', 'tour' => true]); ?>" data-pjax-prevent>
-                    <i class="fa fa-play-circle-o"></i><?= Yii::t('TourModule.base', '<strong>Guide:</strong> Overview'); ?>
+                    <i class="fa fa-play-circle"></i><?= Yii::t('TourModule.base', '<strong>Guide:</strong> Overview'); ?>
                 </a>
             </li>
             <li class="<?php if ($spaces == 1) : ?>completed<?php endif; ?>">
                 <a id="interface-tour-link" href="<?php echo Url::to(['/tour/tour/start-space-tour']); ?>" data-pjax-prevent>
-                    <i class="fa fa-play-circle-o"></i><?php echo Yii::t('TourModule.base', '<strong>Guide:</strong> Spaces'); ?>
+                    <i class="fa fa-play-circle"></i><?php echo Yii::t('TourModule.base', '<strong>Guide:</strong> Spaces'); ?>
                 </a>
             </li>
             <li class="<?php if ($profile == 1) : ?>completed<?php endif; ?>">
                 <a href="<?php echo Yii::$app->user->getIdentity()->createUrl('//user/profile/home', ['tour' => 'true']); ?>" data-pjax-prevent>
-                    <i class="fa fa-play-circle-o"></i><?php echo Yii::t('TourModule.base', '<strong>Guide:</strong> User profile'); ?>
+                    <i class="fa fa-play-circle"></i><?php echo Yii::t('TourModule.base', '<strong>Guide:</strong> User profile'); ?>
                 </a>
             </li>
             <?php if (Yii::$app->user->isAdmin() == true) : ?>
                 <li class="<?php if ($administration == 1) : ?>completed<?php endif; ?>">
                     <a href="<?php echo Url::to(['/marketplace/browse', 'tour' => 'true']); ?>" data-pjax-prevent>
-                        <i class="fa fa-play-circle-o"></i><?php echo Yii::t('TourModule.base', '<strong>Guide:</strong> Administration (Modules)'); ?>
+                        <i class="fa fa-play-circle"></i><?php echo Yii::t('TourModule.base', '<strong>Guide:</strong> Administration (Modules)'); ?>
                     </a>
                 </li>
             <?php endif; ?>

@@ -101,7 +101,7 @@ humhub.module('ui.filter', function(module, require, $) {
 
     var RadioInput = CheckBoxInput.extend(function($node, filter) {
         CheckBoxInput.call(this, $node, filter);
-        this.activeClass = object.defaultValue(this.$.data('filter-icon-active'), 'fa-dot-circle-o');
+        this.activeClass = object.defaultValue(this.$.data('filter-icon-active'), 'fa-dot-circle');
         this.inActiveClass = object.defaultValue(this.$.data('filter-icon-inactive'), 'fa-circle-o');
     });
 
