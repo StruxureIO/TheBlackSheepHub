@@ -104,7 +104,7 @@ class AdminMenu extends LeftNavigation
             'id' => 'settings',
             'label' => Yii::t('AdminModule.base', 'Settings'),
             'url' => ['/admin/setting'],
-            'icon' => 'gears',
+            'icon' => 'cogs',
             'sortOrder' => 600,
             'isActive' => MenuLink::isActiveState('admin', 'setting'),
             'isVisible' => Yii::$app->user->can(ManageSettings::class)
