@@ -35,6 +35,18 @@
     git pull --recurse-submodules
 
 
+# Documentation for modules
+- ## Custom Modules 
+	- Vendors - https://github.com/StruxureIO/stepstone_vendors#readme
+	- Videos - https://github.com/StruxureIO/stepstone_videos#readme
+	- FileBrowser - https://github.com/StruxureIO/stepstone_filesbrowser#readme
+	- Sync - https://github.com/StruxureIO/stepstone_sync#readme
+	- Rest API - https://github.com/StruxureIO/rest#readme
+- ## External Modules
+	- External Calendar - https://github.com/staxDB/humhub-modules-external-calendar/blob/master/docs/INSTALL.md
+
+
+
 HumHub - Social Network Kit
 ===========================
 
